@@ -1,0 +1,9 @@
+streamlit
+streamlit-lottie
+requests
+plotly
+pandas
+os
+matplotlib
+wordcloud
+json
