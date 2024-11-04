@@ -93,9 +93,9 @@ with c4:
     st.pyplot(plt.gcf())
 with c5:
     st.html("<h4>Sebaran Status Gizi Pengguna</h4>")
-    # fig = px.choropleth(df_by_wilayah, locations="id_wilayah", geojson=idn_prov, featureidkey="properties.id_wilayah", color="kode status gizi", scope="asia")
-    # fig.update_geos(fitbounds="locations")
-    # st.plotly_chart(fig)
+    fig = px.choropleth(df_by_wilayah, locations="id_wilayah", geojson=idn_prov, featureidkey="properties.id_wilayah", color="kode status gizi", scope="asia")
+    fig.update_geos(fitbounds="locations")
+    st.plotly_chart(fig)
 
     # Alternative Map
     # m = folium.Map(location=[-2.638450777665013, 116.03361226277096], tiles='CartoDB positron', zoom_start=5)

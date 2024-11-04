@@ -4,3 +4,4 @@ requests
 plotly
 wordcloud
 folium
+streamlit_folium
