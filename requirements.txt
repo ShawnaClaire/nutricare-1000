@@ -6,4 +6,3 @@ pandas
 os
 matplotlib
 wordcloud
-json
