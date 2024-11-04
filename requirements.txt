@@ -3,3 +3,4 @@ streamlit-lottie
 requests
 plotly
 wordcloud
+folium
